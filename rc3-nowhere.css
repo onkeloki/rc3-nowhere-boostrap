@@ -13,17 +13,17 @@ body {
 
 @font-face {
     font-family: "SpaceMono-Regular";
-    src        : url("assets/02b_Fonts/SpaceMono-Regular.ttf") format("truetype");
+    src        : url("./assets/02b_Fonts/SpaceMono-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "SpaceMono-Bold";
-    src        : url("assets/02b_Fonts/SpaceMono-Bold.ttf") format("truetype");
+    src        : url("./assets/02b_Fonts/SpaceMono-Bold.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Changa-SemiBold";
-    src        : url("assets/02b_Fonts/Changa-SemiBold.ttf") format("truetype");
+    src        : url("./assets/02b_Fonts/Changa-SemiBold.ttf") format("truetype");
 }
 
 .card {
@@ -73,7 +73,7 @@ a[href] {
 
 body.bg-1-1 {
 
-    background-image: url('/assets/07_Grid/07_Grid.png'), url('/assets/10b_Background_fallback/10b_Background_fallback_desktop_01_01.jpg');
+    background-image: url('/assets/07_Grid/07_Grid.png'), url('./assets/10b_Background_fallback/10b_Background_fallback_desktop_01_01.jpg');
 
 }
 
